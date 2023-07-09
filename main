@@ -1,0 +1,12 @@
+fun printWordsSeparately(sentence: String) {
+    val words = sentence.split(" ")
+
+    for (word in words) {
+        println(word)
+    }
+}
+
+fun main() {
+    val sentence = "Это пример предложения, которое будет разделено на отдельные слова"
+    printWordsSeparately(sentence)
+}
